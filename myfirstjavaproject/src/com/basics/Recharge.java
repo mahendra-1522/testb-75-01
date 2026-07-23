@@ -15,7 +15,7 @@ public class Recharge {
 	void recharge(double amount) {
 	if(amount ==299 ) {
 		System.out.println("Recharge Successful!!");
-		System.out.println("Recharge amount:$"+amount);
+		System.out.println("Recharge amount:RS:"+amount);
 		
 	}
 	else {
@@ -25,6 +25,7 @@ public class Recharge {
 	}
 void main() {
 	plandetails();
+	System.out.println("----------------------------");
 	recharge(299);
 }
 }

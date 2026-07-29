@@ -23,11 +23,7 @@ public class Swapping {
 		
 		System.out.println("After Swapping");
 		System.out.println("A :"+a);
-		System.out.println("B :"+b);
-		
-		
-	
-		
+		System.out.println("B :"+b);		
 	}
 
 }

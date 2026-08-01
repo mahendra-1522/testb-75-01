@@ -13,10 +13,10 @@ public class SecondLargest {
 		System.out.println("Enter C Number :");
 		int c=sc.nextInt();
 		
-		if(b>a && b<c || b<a && b>c) {
+		if(b>=a && b<=c || b<=a && b>=c) {
 			System.out.println("The Second Largest Number is B "+b);
 		}
-		else if(a>b && a<c || a<b && a>c) {
+		else if(a>=b && a<=c || a<=b && a>=c) {
 			System.out.println("The Second Largest Number is A "+a);
 		}
 		else {
